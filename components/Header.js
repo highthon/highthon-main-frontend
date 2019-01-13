@@ -43,7 +43,7 @@ export default () => {
         <HeaderWrapper>
             <LogoWrapper>
                 <LogoLi>
-                    <Link href="/"><MenuName>로고가 들어올자리랍니당 오호호</MenuName></Link>
+                    <Link href="/"><MenuName>로고 들어올자리</MenuName></Link>
                 </LogoLi>
             </LogoWrapper>
             <MenuWrapper>
