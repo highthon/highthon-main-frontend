@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Header from "../components/Header";
 
 const Home = styled.div`
-    background-image: url('/static/images/back.jpg');
+    background-image: url('/static/images/back_trip.jpg');
     background-size: cover;
     background-position: center;
     position:absolute;
