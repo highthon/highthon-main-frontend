@@ -37,13 +37,16 @@ const MenuName = styled.a`
     color:#00000;
     text-decoration:none
 `;
+const LogoImg = styled.img`
+    src: url(${props => props.src});
+`;
 
 export default () => {
     return(
         <HeaderWrapper>
             <LogoWrapper>
                 <LogoLi>
-                    <Link href="/"><MenuName>로고 들어올자리</MenuName></Link>
+                    <Link href="/"><MenuName><LogoImg src="../static/images/logo.png"/></MenuName></Link>
                 </LogoLi>
             </LogoWrapper>
             <MenuWrapper>

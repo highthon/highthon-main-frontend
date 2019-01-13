@@ -111,6 +111,16 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/user/highthon-main-frontend/components/Header.js";
 
 
+function _templateObject7() {
+  var data = _taggedTemplateLiteral(["\n    src: url(", ");\n"]);
+
+  _templateObject7 = function _templateObject7() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject6() {
   var data = _taggedTemplateLiteral(["\n    color:#00000;\n    text-decoration:none\n"]);
 
@@ -181,137 +191,147 @@ var MenuWrapper = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div(_
 var LogoLi = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.li(_templateObject4());
 var MenuLi = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.li(_templateObject5());
 var MenuName = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.a(_templateObject6());
+var LogoImg = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.img(_templateObject7(), function (props) {
+  return props.src;
+});
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(HeaderWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LogoWrapper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LogoLi, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 48
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 49
     },
     __self: this
-  }, "\uB85C\uACE0 \uB4E4\uC5B4\uC62C\uC790\uB9AC")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuWrapper, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(LogoImg, {
+    src: "../static/images/logo.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
     },
     __self: this
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuWrapper, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuLi, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 53
     },
     __self: this
   }, "\uC18C\uAC1C"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuLi, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/article",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 54
     },
     __self: this
   }, "\uAE30\uC0AC"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuLi, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/sponsor",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 55
     },
     __self: this
   }, "\uD6C4\uC6D0\uC0AC"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuLi, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/apply",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 56
     },
     __self: this
   }, "\uC2E0\uCCAD\uD558\uAE30"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuLi, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/photo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuName, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 57
     },
     __self: this
   }, "\uD589\uC0AC\uC0AC\uC9C4")))));
