@@ -1,32 +1,30 @@
 {
   "name": "highthon-main-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "next": "^7.0.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.1",
-    "styled-components": "^4.1.3"
-  },
+  "version": "1.0.0",
+  "description": ">하이톤 메인페이지는 행사 소개, 후원사 소개 등 행사에 대한 주요 정보들을 공유하고 신청자들을 대상으로 신청 받기 위해 기획됨.",
+  "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "react-scripts start"
+    "build": "next build",
+    "start": "next start"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git@river-stone-jin:highthon/highthon-main-frontend.git"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "promise-memoize": "^1.2.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "unstated": "^2.1.1"
+  },
   "devDependencies": {
-    "css-loader": "^2.1.0",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^3.0.1",
-    "style-loader": "^0.23.1",
-    "webpack-cli": "^3.2.1"
+    "webpack-notifier": "^1.7.0"
   }
 }
