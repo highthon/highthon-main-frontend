@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import {Provider, Subscribe, Container} from "unstated"
 import axios from "axios";
 
+/*복구했다 샤랄라*/
 export default class Apply extends React.Component {
     render() {
         return(
